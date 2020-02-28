@@ -34,5 +34,10 @@ public class Solution {
         return number;
     }
 
+    private String storePassword() {
+        StringBuilder sb = new StringBuilder();
+        sb.append(generatePassword());
+        return sb.toString();
+    }
 
 }
