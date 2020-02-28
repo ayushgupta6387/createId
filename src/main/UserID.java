@@ -8,7 +8,13 @@ public class UserID {
         System.out.println("Enter the number of employees");
         int employee = scanner.nextInt();
         scanner.nextLine();
-        UserID[] array = new UserID[employee];
+        Solution[] array = new Solution[employee];
+        for (int i = 0; i < array.length; i++) {
+            String userName = scanner.nextLine();
+            int userId = scanner.nextInt();
+            scanner.nextLine();
+            String companyName = scanner.nextLine();
 
+        }
     }
 }
