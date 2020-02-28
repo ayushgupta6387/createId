@@ -8,6 +8,7 @@ public class UserID {
         System.out.println("Enter the number of employees");
         int employee = scanner.nextInt();
         scanner.nextLine();
+        UserID[] array = new UserID[employee];
 
     }
 }
