@@ -30,7 +30,7 @@ public class Solution {
     }
 
     private String createId() {
-        return String.format("%s_%d@%s", getUserName(), getUserID(), getCompanyName());
+        return String.format("%s_%d@%s.com", getUserName(), getUserID(), getCompanyName());
     }
 
     private int generatePassword() {
@@ -46,9 +46,8 @@ public class Solution {
 
     @Override
     public String toString() {
-        return "Solution{" +
+        return
                 "EmployeeId='" + emailId + '\'' +
-                ", password='" + password + '\'' +
-                '}';
+                        ", password='" + password + '\'';
     }
 }
