@@ -6,11 +6,15 @@ public class Solution {
     private String userName;
     private int userID;
     private String companyName;
+    private String emailId;
+    private String password;
 
     public Solution(String userName, int userID, String companyName) {
         this.userName = userName;
         this.userID = userID;
         this.companyName = companyName;
+        this.emailId = createId();
+        this.password = storePassword();
     }
 
     public String getUserName() {
@@ -39,5 +43,6 @@ public class Solution {
         sb.append(generatePassword());
         return sb.toString();
     }
+
 
 }
