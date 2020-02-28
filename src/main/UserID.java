@@ -14,7 +14,8 @@ public class UserID {
             int userId = scanner.nextInt();
             scanner.nextLine();
             String companyName = scanner.nextLine();
-
+            array[i] = new Solution(userName, userId, companyName);
         }
+
     }
 }
