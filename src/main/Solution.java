@@ -22,4 +22,10 @@ public class Solution {
     public String getCompanyName() {
         return companyName;
     }
+
+    private String createId() {
+        return String.format("%s_%d@%s", getUserName(), getUserID(), getCompanyName());
+    }
+
+
 }
