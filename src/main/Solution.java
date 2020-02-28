@@ -10,4 +10,16 @@ public class Solution {
         this.userID = userID;
         this.companyName = companyName;
     }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public int getUserID() {
+        return userID;
+    }
+
+    public String getCompanyName() {
+        return companyName;
+    }
 }
