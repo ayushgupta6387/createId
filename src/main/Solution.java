@@ -44,5 +44,11 @@ public class Solution {
         return sb.toString();
     }
 
-
+    @Override
+    public String toString() {
+        return "Solution{" +
+                "EmployeeId='" + emailId + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
 }
